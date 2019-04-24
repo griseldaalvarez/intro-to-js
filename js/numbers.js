@@ -36,5 +36,9 @@ console.log(div);
 var mod = b % a;
 console.log(mod);
 
-var e = '5';  //not a number; rather a 'string'
+var e = '20';  //not a number; rather a 'string'
 console.log(typeof e); //returns in console the type of variable e (ie=string),not the num.5
+
+console.log(a === e); //triple = is strict comparisson. a is a number, b is a string so it's not equal
+
+console.log(a == e); //does not look at its type only its value. loose comparison. //known as truthy (half truth)
